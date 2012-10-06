@@ -1,0 +1,809 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C2519D1161FB64F00423D68 /* bad-luck-brian.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C2519CC161FB64F00423D68 /* bad-luck-brian.png */; };
+		8C2519D2161FB64F00423D68 /* forever-resentful-mother.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C2519CD161FB64F00423D68 /* forever-resentful-mother.jpeg */; };
+		8C2519D3161FB64F00423D68 /* good-guy-greg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C2519CE161FB64F00423D68 /* good-guy-greg.jpeg */; };
+		8C2519D4161FB64F00423D68 /* scumbag-steve.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C2519CF161FB64F00423D68 /* scumbag-steve.jpeg */; };
+		8C2519D5161FB64F00423D68 /* super-cool-ski-instructor.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C2519D0161FB64F00423D68 /* super-cool-ski-instructor.png */; };
+		8C2519E5161FBE5300423D68 /* annoyed-picard.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C2519D7161FBE5300423D68 /* annoyed-picard.jpeg */; };
+		8C2519E6161FBE5300423D68 /* confession-bear.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C2519D8161FBE5300423D68 /* confession-bear.jpeg */; };
+		8C2519E7161FBE5300423D68 /* first-world-problems.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C2519D9161FBE5300423D68 /* first-world-problems.jpeg */; };
+		8C2519E8161FBE5300423D68 /* futurama-fry.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C2519DA161FBE5300423D68 /* futurama-fry.jpeg */; };
+		8C2519E9161FBE5300423D68 /* good-girl-gina.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C2519DB161FBE5300423D68 /* good-girl-gina.jpeg */; };
+		8C2519EA161FBE5300423D68 /* inappropriate-timing-bill-clinton.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C2519DC161FBE5300423D68 /* inappropriate-timing-bill-clinton.jpeg */; };
+		8C2519EB161FBE5300423D68 /* mckayla-is-not-impressed.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C2519DD161FBE5300423D68 /* mckayla-is-not-impressed.jpeg */; };
+		8C2519EC161FBE5300423D68 /* philosoraptor.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C2519DE161FBE5300423D68 /* philosoraptor.jpeg */; };
+		8C2519ED161FBE5300423D68 /* redditors-wife.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C2519DF161FBE5300423D68 /* redditors-wife.jpeg */; };
+		8C2519EE161FBE5300423D68 /* socially-awkward-penguin.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C2519E0161FBE5300423D68 /* socially-awkward-penguin.png */; };
+		8C2519EF161FBE5300423D68 /* success-kid.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C2519E1161FBE5300423D68 /* success-kid.png */; };
+		8C2519F0161FBE5300423D68 /* sudden-clarity-clarence.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C2519E2161FBE5300423D68 /* sudden-clarity-clarence.jpeg */; };
+		8C2519F1161FBE5300423D68 /* unhelpful-high-school-teacher.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C2519E3161FBE5300423D68 /* unhelpful-high-school-teacher.jpeg */; };
+		8C2519F2161FBE5300423D68 /* x-x-everywhere.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C2519E4161FBE5300423D68 /* x-x-everywhere.jpeg */; };
+		8C251A1F161FC54900423D68 /* thumb-annoyed-picard.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C2519F3161FC54900423D68 /* thumb-annoyed-picard.jpeg */; };
+		8C251A20161FC54900423D68 /* thumb-annoyed-picard@2x.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C2519F4161FC54900423D68 /* thumb-annoyed-picard@2x.jpeg */; };
+		8C251A21161FC54900423D68 /* thumb-bad-luck-brian.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C2519F5161FC54900423D68 /* thumb-bad-luck-brian.png */; };
+		8C251A22161FC54900423D68 /* thumb-bad-luck-brian@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C2519F6161FC54900423D68 /* thumb-bad-luck-brian@2x.png */; };
+		8C251A23161FC54900423D68 /* thumb-confession-bear.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C2519F7161FC54900423D68 /* thumb-confession-bear.jpeg */; };
+		8C251A24161FC54900423D68 /* thumb-confession-bear@2x.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C2519F8161FC54900423D68 /* thumb-confession-bear@2x.jpeg */; };
+		8C251A25161FC54900423D68 /* thumb-first-world-problems.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C2519F9161FC54900423D68 /* thumb-first-world-problems.jpeg */; };
+		8C251A26161FC54900423D68 /* thumb-first-world-problems@2x.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C2519FA161FC54900423D68 /* thumb-first-world-problems@2x.jpeg */; };
+		8C251A27161FC54900423D68 /* thumb-forever-resentful-mother.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C2519FB161FC54900423D68 /* thumb-forever-resentful-mother.jpeg */; };
+		8C251A28161FC54900423D68 /* thumb-forever-resentful-mother@2x.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C2519FC161FC54900423D68 /* thumb-forever-resentful-mother@2x.jpeg */; };
+		8C251A29161FC54900423D68 /* thumb-futurama-fry.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C2519FD161FC54900423D68 /* thumb-futurama-fry.jpeg */; };
+		8C251A2A161FC54900423D68 /* thumb-futurama-fry@2x.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C2519FE161FC54900423D68 /* thumb-futurama-fry@2x.jpeg */; };
+		8C251A2B161FC54900423D68 /* thumb-good-girl-gina.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C2519FF161FC54900423D68 /* thumb-good-girl-gina.jpeg */; };
+		8C251A2C161FC54900423D68 /* thumb-good-girl-gina@2x.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C251A00161FC54900423D68 /* thumb-good-girl-gina@2x.jpeg */; };
+		8C251A2D161FC54900423D68 /* thumb-good-guy-greg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C251A01161FC54900423D68 /* thumb-good-guy-greg.jpeg */; };
+		8C251A2E161FC54900423D68 /* thumb-good-guy-greg@2x.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C251A02161FC54900423D68 /* thumb-good-guy-greg@2x.jpeg */; };
+		8C251A2F161FC54900423D68 /* thumb-inappropriate-timing-bill-clinton.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C251A03161FC54900423D68 /* thumb-inappropriate-timing-bill-clinton.jpeg */; };
+		8C251A30161FC54900423D68 /* thumb-inappropriate-timing-bill-clinton@2x.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C251A04161FC54900423D68 /* thumb-inappropriate-timing-bill-clinton@2x.jpeg */; };
+		8C251A31161FC54900423D68 /* thumb-mckayla-is-not-impressed.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C251A05161FC54900423D68 /* thumb-mckayla-is-not-impressed.jpeg */; };
+		8C251A32161FC54900423D68 /* thumb-mckayla-is-not-impressed@2x.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C251A06161FC54900423D68 /* thumb-mckayla-is-not-impressed@2x.jpeg */; };
+		8C251A33161FC54900423D68 /* thumb-overly-attached-girlfriend.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8C251A07161FC54900423D68 /* thumb-overly-attached-girlfriend.jpg */; };
+		8C251A34161FC54900423D68 /* thumb-overly-attached-girlfriend@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8C251A08161FC54900423D68 /* thumb-overly-attached-girlfriend@2x.jpg */; };
+		8C251A35161FC54900423D68 /* thumb-philosoraptor.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C251A09161FC54900423D68 /* thumb-philosoraptor.jpeg */; };
+		8C251A36161FC54900423D68 /* thumb-philosoraptor@2x.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C251A0A161FC54900423D68 /* thumb-philosoraptor@2x.jpeg */; };
+		8C251A37161FC54900423D68 /* thumb-redditors-wife.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C251A0B161FC54900423D68 /* thumb-redditors-wife.jpeg */; };
+		8C251A38161FC54900423D68 /* thumb-redditors-wife@2x.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C251A0C161FC54900423D68 /* thumb-redditors-wife@2x.jpeg */; };
+		8C251A39161FC54900423D68 /* thumb-scumbag-steve.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C251A0D161FC54900423D68 /* thumb-scumbag-steve.jpeg */; };
+		8C251A3A161FC54900423D68 /* thumb-scumbag-steve@2x.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C251A0E161FC54900423D68 /* thumb-scumbag-steve@2x.jpeg */; };
+		8C251A3B161FC54900423D68 /* thumb-socially-awkward-penguin.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C251A0F161FC54900423D68 /* thumb-socially-awkward-penguin.png */; };
+		8C251A3C161FC54900423D68 /* thumb-socially-awkward-penguin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C251A10161FC54900423D68 /* thumb-socially-awkward-penguin@2x.png */; };
+		8C251A3D161FC54900423D68 /* thumb-success-kid.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C251A11161FC54900423D68 /* thumb-success-kid.png */; };
+		8C251A3E161FC54900423D68 /* thumb-success-kid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C251A12161FC54900423D68 /* thumb-success-kid@2x.png */; };
+		8C251A3F161FC54900423D68 /* thumb-sudden-clarity-clarence.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C251A13161FC54900423D68 /* thumb-sudden-clarity-clarence.jpeg */; };
+		8C251A40161FC54900423D68 /* thumb-sudden-clarity-clarence@2x.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C251A14161FC54900423D68 /* thumb-sudden-clarity-clarence@2x.jpeg */; };
+		8C251A41161FC54900423D68 /* thumb-super-cool-ski-instructor.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C251A15161FC54900423D68 /* thumb-super-cool-ski-instructor.png */; };
+		8C251A42161FC54900423D68 /* thumb-super-cool-ski-instructor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C251A16161FC54900423D68 /* thumb-super-cool-ski-instructor@2x.png */; };
+		8C251A43161FC54900423D68 /* thumb-the-most-interesting-man-in-the-world.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8C251A17161FC54900423D68 /* thumb-the-most-interesting-man-in-the-world.jpg */; };
+		8C251A44161FC54900423D68 /* thumb-the-most-interesting-man-in-the-world@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8C251A18161FC54900423D68 /* thumb-the-most-interesting-man-in-the-world@2x.jpg */; };
+		8C251A45161FC54900423D68 /* thumb-unhelpful-high-school-teacher.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C251A19161FC54900423D68 /* thumb-unhelpful-high-school-teacher.jpeg */; };
+		8C251A46161FC54900423D68 /* thumb-unhelpful-high-school-teacher@2x.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C251A1A161FC54900423D68 /* thumb-unhelpful-high-school-teacher@2x.jpeg */; };
+		8C251A47161FC54900423D68 /* thumb-upvoting-obama.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C251A1B161FC54900423D68 /* thumb-upvoting-obama.png */; };
+		8C251A48161FC54900423D68 /* thumb-upvoting-obama@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C251A1C161FC54900423D68 /* thumb-upvoting-obama@2x.png */; };
+		8C251A49161FC54900423D68 /* thumb-x-x-everywhere.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C251A1D161FC54900423D68 /* thumb-x-x-everywhere.jpeg */; };
+		8C251A4A161FC54900423D68 /* thumb-x-x-everywhere@2x.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C251A1E161FC54900423D68 /* thumb-x-x-everywhere@2x.jpeg */; };
+		8C7048B7161BC2C9006F19A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C7048B6161BC2C9006F19A8 /* UIKit.framework */; };
+		8C7048B9161BC2C9006F19A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C7048B8161BC2C9006F19A8 /* Foundation.framework */; };
+		8C7048BB161BC2C9006F19A8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C7048BA161BC2C9006F19A8 /* CoreGraphics.framework */; };
+		8C7048C1161BC2C9006F19A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8C7048BF161BC2C9006F19A8 /* InfoPlist.strings */; };
+		8C7048C3161BC2C9006F19A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C7048C2161BC2C9006F19A8 /* main.m */; };
+		8C7048C7161BC2C9006F19A8 /* MIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C7048C6161BC2C9006F19A8 /* MIAppDelegate.m */; };
+		8C7048C9161BC2C9006F19A8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C7048C8161BC2C9006F19A8 /* Default.png */; };
+		8C7048CB161BC2C9006F19A8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C7048CA161BC2C9006F19A8 /* Default@2x.png */; };
+		8C7048CD161BC2C9006F19A8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C7048CC161BC2C9006F19A8 /* Default-568h@2x.png */; };
+		8C7048D0161BC2C9006F19A8 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C7048CE161BC2C9006F19A8 /* MainStoryboard_iPhone.storyboard */; };
+		8C7048D3161BC2C9006F19A8 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C7048D1161BC2C9006F19A8 /* MainStoryboard_iPad.storyboard */; };
+		8C7048E9161BC2C9006F19A8 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C7048E8161BC2C9006F19A8 /* SenTestingKit.framework */; };
+		8C7048EA161BC2C9006F19A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C7048B6161BC2C9006F19A8 /* UIKit.framework */; };
+		8C7048EB161BC2C9006F19A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C7048B8161BC2C9006F19A8 /* Foundation.framework */; };
+		8C7048F3161BC2C9006F19A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8C7048F1161BC2C9006F19A8 /* InfoPlist.strings */; };
+		8C7048F6161BC2C9006F19A8 /* MemeInventoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C7048F5161BC2C9006F19A8 /* MemeInventoryTests.m */; };
+		8C82EFDF161F545100C08CAA /* MIMemesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C82EFDE161F545100C08CAA /* MIMemesViewController.m */; };
+		8C82EFE2161F548500C08CAA /* MIMemesViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C82EFE1161F548500C08CAA /* MIMemesViewControllerTests.m */; };
+		8C82EFE5161F56CF00C08CAA /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8C82EFE3161F56CF00C08CAA /* DataModel.xcdatamodeld */; };
+		8C82EFF0161F5C9800C08CAA /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C82EFEF161F5C9800C08CAA /* CoreData.framework */; };
+		8C82EFF3161F5E8400C08CAA /* MIMemesDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C82EFF2161F5E8400C08CAA /* MIMemesDataSource.m */; };
+		8C82EFF9161F751E00C08CAA /* MIMemeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C82EFF8161F751E00C08CAA /* MIMemeCollectionViewCell.m */; };
+		8C82EFFE161F921900C08CAA /* overly-attached-girlfriend.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8C82EFFB161F921900C08CAA /* overly-attached-girlfriend.jpg */; };
+		8C82EFFF161F921900C08CAA /* the-most-interesting-man-in-the-world.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8C82EFFC161F921900C08CAA /* the-most-interesting-man-in-the-world.jpg */; };
+		8C82F000161F921900C08CAA /* upvoting-obama.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C82EFFD161F921900C08CAA /* upvoting-obama.png */; };
+		8C82F009161F950400C08CAA /* Meme.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C82F008161F950400C08CAA /* Meme.m */; };
+		8C82F00C161F950500C08CAA /* MemeTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C82F00B161F950500C08CAA /* MemeTemplate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C7048EC161BC2C9006F19A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C7048A9161BC2C9006F19A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C7048B1161BC2C9006F19A8;
+			remoteInfo = MemeInventory;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8C2519CC161FB64F00423D68 /* bad-luck-brian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bad-luck-brian.png"; sourceTree = "<group>"; };
+		8C2519CD161FB64F00423D68 /* forever-resentful-mother.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "forever-resentful-mother.jpeg"; sourceTree = "<group>"; };
+		8C2519CE161FB64F00423D68 /* good-guy-greg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "good-guy-greg.jpeg"; sourceTree = "<group>"; };
+		8C2519CF161FB64F00423D68 /* scumbag-steve.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "scumbag-steve.jpeg"; sourceTree = "<group>"; };
+		8C2519D0161FB64F00423D68 /* super-cool-ski-instructor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "super-cool-ski-instructor.png"; sourceTree = "<group>"; };
+		8C2519D7161FBE5300423D68 /* annoyed-picard.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "annoyed-picard.jpeg"; sourceTree = "<group>"; };
+		8C2519D8161FBE5300423D68 /* confession-bear.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "confession-bear.jpeg"; sourceTree = "<group>"; };
+		8C2519D9161FBE5300423D68 /* first-world-problems.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "first-world-problems.jpeg"; sourceTree = "<group>"; };
+		8C2519DA161FBE5300423D68 /* futurama-fry.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "futurama-fry.jpeg"; sourceTree = "<group>"; };
+		8C2519DB161FBE5300423D68 /* good-girl-gina.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "good-girl-gina.jpeg"; sourceTree = "<group>"; };
+		8C2519DC161FBE5300423D68 /* inappropriate-timing-bill-clinton.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "inappropriate-timing-bill-clinton.jpeg"; sourceTree = "<group>"; };
+		8C2519DD161FBE5300423D68 /* mckayla-is-not-impressed.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mckayla-is-not-impressed.jpeg"; sourceTree = "<group>"; };
+		8C2519DE161FBE5300423D68 /* philosoraptor.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = philosoraptor.jpeg; sourceTree = "<group>"; };
+		8C2519DF161FBE5300423D68 /* redditors-wife.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "redditors-wife.jpeg"; sourceTree = "<group>"; };
+		8C2519E0161FBE5300423D68 /* socially-awkward-penguin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "socially-awkward-penguin.png"; sourceTree = "<group>"; };
+		8C2519E1161FBE5300423D68 /* success-kid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "success-kid.png"; sourceTree = "<group>"; };
+		8C2519E2161FBE5300423D68 /* sudden-clarity-clarence.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sudden-clarity-clarence.jpeg"; sourceTree = "<group>"; };
+		8C2519E3161FBE5300423D68 /* unhelpful-high-school-teacher.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "unhelpful-high-school-teacher.jpeg"; sourceTree = "<group>"; };
+		8C2519E4161FBE5300423D68 /* x-x-everywhere.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "x-x-everywhere.jpeg"; sourceTree = "<group>"; };
+		8C2519F3161FC54900423D68 /* thumb-annoyed-picard.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "thumb-annoyed-picard.jpeg"; sourceTree = "<group>"; };
+		8C2519F4161FC54900423D68 /* thumb-annoyed-picard@2x.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "thumb-annoyed-picard@2x.jpeg"; sourceTree = "<group>"; };
+		8C2519F5161FC54900423D68 /* thumb-bad-luck-brian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumb-bad-luck-brian.png"; sourceTree = "<group>"; };
+		8C2519F6161FC54900423D68 /* thumb-bad-luck-brian@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumb-bad-luck-brian@2x.png"; sourceTree = "<group>"; };
+		8C2519F7161FC54900423D68 /* thumb-confession-bear.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "thumb-confession-bear.jpeg"; sourceTree = "<group>"; };
+		8C2519F8161FC54900423D68 /* thumb-confession-bear@2x.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "thumb-confession-bear@2x.jpeg"; sourceTree = "<group>"; };
+		8C2519F9161FC54900423D68 /* thumb-first-world-problems.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "thumb-first-world-problems.jpeg"; sourceTree = "<group>"; };
+		8C2519FA161FC54900423D68 /* thumb-first-world-problems@2x.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "thumb-first-world-problems@2x.jpeg"; sourceTree = "<group>"; };
+		8C2519FB161FC54900423D68 /* thumb-forever-resentful-mother.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "thumb-forever-resentful-mother.jpeg"; sourceTree = "<group>"; };
+		8C2519FC161FC54900423D68 /* thumb-forever-resentful-mother@2x.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "thumb-forever-resentful-mother@2x.jpeg"; sourceTree = "<group>"; };
+		8C2519FD161FC54900423D68 /* thumb-futurama-fry.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "thumb-futurama-fry.jpeg"; sourceTree = "<group>"; };
+		8C2519FE161FC54900423D68 /* thumb-futurama-fry@2x.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "thumb-futurama-fry@2x.jpeg"; sourceTree = "<group>"; };
+		8C2519FF161FC54900423D68 /* thumb-good-girl-gina.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "thumb-good-girl-gina.jpeg"; sourceTree = "<group>"; };
+		8C251A00161FC54900423D68 /* thumb-good-girl-gina@2x.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "thumb-good-girl-gina@2x.jpeg"; sourceTree = "<group>"; };
+		8C251A01161FC54900423D68 /* thumb-good-guy-greg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "thumb-good-guy-greg.jpeg"; sourceTree = "<group>"; };
+		8C251A02161FC54900423D68 /* thumb-good-guy-greg@2x.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "thumb-good-guy-greg@2x.jpeg"; sourceTree = "<group>"; };
+		8C251A03161FC54900423D68 /* thumb-inappropriate-timing-bill-clinton.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "thumb-inappropriate-timing-bill-clinton.jpeg"; sourceTree = "<group>"; };
+		8C251A04161FC54900423D68 /* thumb-inappropriate-timing-bill-clinton@2x.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "thumb-inappropriate-timing-bill-clinton@2x.jpeg"; sourceTree = "<group>"; };
+		8C251A05161FC54900423D68 /* thumb-mckayla-is-not-impressed.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "thumb-mckayla-is-not-impressed.jpeg"; sourceTree = "<group>"; };
+		8C251A06161FC54900423D68 /* thumb-mckayla-is-not-impressed@2x.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "thumb-mckayla-is-not-impressed@2x.jpeg"; sourceTree = "<group>"; };
+		8C251A07161FC54900423D68 /* thumb-overly-attached-girlfriend.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "thumb-overly-attached-girlfriend.jpg"; sourceTree = "<group>"; };
+		8C251A08161FC54900423D68 /* thumb-overly-attached-girlfriend@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "thumb-overly-attached-girlfriend@2x.jpg"; sourceTree = "<group>"; };
+		8C251A09161FC54900423D68 /* thumb-philosoraptor.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "thumb-philosoraptor.jpeg"; sourceTree = "<group>"; };
+		8C251A0A161FC54900423D68 /* thumb-philosoraptor@2x.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "thumb-philosoraptor@2x.jpeg"; sourceTree = "<group>"; };
+		8C251A0B161FC54900423D68 /* thumb-redditors-wife.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "thumb-redditors-wife.jpeg"; sourceTree = "<group>"; };
+		8C251A0C161FC54900423D68 /* thumb-redditors-wife@2x.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "thumb-redditors-wife@2x.jpeg"; sourceTree = "<group>"; };
+		8C251A0D161FC54900423D68 /* thumb-scumbag-steve.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "thumb-scumbag-steve.jpeg"; sourceTree = "<group>"; };
+		8C251A0E161FC54900423D68 /* thumb-scumbag-steve@2x.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "thumb-scumbag-steve@2x.jpeg"; sourceTree = "<group>"; };
+		8C251A0F161FC54900423D68 /* thumb-socially-awkward-penguin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumb-socially-awkward-penguin.png"; sourceTree = "<group>"; };
+		8C251A10161FC54900423D68 /* thumb-socially-awkward-penguin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumb-socially-awkward-penguin@2x.png"; sourceTree = "<group>"; };
+		8C251A11161FC54900423D68 /* thumb-success-kid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumb-success-kid.png"; sourceTree = "<group>"; };
+		8C251A12161FC54900423D68 /* thumb-success-kid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumb-success-kid@2x.png"; sourceTree = "<group>"; };
+		8C251A13161FC54900423D68 /* thumb-sudden-clarity-clarence.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "thumb-sudden-clarity-clarence.jpeg"; sourceTree = "<group>"; };
+		8C251A14161FC54900423D68 /* thumb-sudden-clarity-clarence@2x.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "thumb-sudden-clarity-clarence@2x.jpeg"; sourceTree = "<group>"; };
+		8C251A15161FC54900423D68 /* thumb-super-cool-ski-instructor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumb-super-cool-ski-instructor.png"; sourceTree = "<group>"; };
+		8C251A16161FC54900423D68 /* thumb-super-cool-ski-instructor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumb-super-cool-ski-instructor@2x.png"; sourceTree = "<group>"; };
+		8C251A17161FC54900423D68 /* thumb-the-most-interesting-man-in-the-world.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "thumb-the-most-interesting-man-in-the-world.jpg"; sourceTree = "<group>"; };
+		8C251A18161FC54900423D68 /* thumb-the-most-interesting-man-in-the-world@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "thumb-the-most-interesting-man-in-the-world@2x.jpg"; sourceTree = "<group>"; };
+		8C251A19161FC54900423D68 /* thumb-unhelpful-high-school-teacher.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "thumb-unhelpful-high-school-teacher.jpeg"; sourceTree = "<group>"; };
+		8C251A1A161FC54900423D68 /* thumb-unhelpful-high-school-teacher@2x.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "thumb-unhelpful-high-school-teacher@2x.jpeg"; sourceTree = "<group>"; };
+		8C251A1B161FC54900423D68 /* thumb-upvoting-obama.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumb-upvoting-obama.png"; sourceTree = "<group>"; };
+		8C251A1C161FC54900423D68 /* thumb-upvoting-obama@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumb-upvoting-obama@2x.png"; sourceTree = "<group>"; };
+		8C251A1D161FC54900423D68 /* thumb-x-x-everywhere.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "thumb-x-x-everywhere.jpeg"; sourceTree = "<group>"; };
+		8C251A1E161FC54900423D68 /* thumb-x-x-everywhere@2x.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "thumb-x-x-everywhere@2x.jpeg"; sourceTree = "<group>"; };
+		8C7048B2161BC2C9006F19A8 /* MemeInventory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemeInventory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C7048B6161BC2C9006F19A8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8C7048B8161BC2C9006F19A8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8C7048BA161BC2C9006F19A8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8C7048BE161BC2C9006F19A8 /* MemeInventory-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MemeInventory-Info.plist"; sourceTree = "<group>"; };
+		8C7048C0161BC2C9006F19A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8C7048C2161BC2C9006F19A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8C7048C4161BC2C9006F19A8 /* MemeInventory-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MemeInventory-Prefix.pch"; sourceTree = "<group>"; };
+		8C7048C5161BC2C9006F19A8 /* MIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MIAppDelegate.h; sourceTree = "<group>"; };
+		8C7048C6161BC2C9006F19A8 /* MIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MIAppDelegate.m; sourceTree = "<group>"; };
+		8C7048C8161BC2C9006F19A8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8C7048CA161BC2C9006F19A8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8C7048CC161BC2C9006F19A8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8C7048CF161BC2C9006F19A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		8C7048D2161BC2C9006F19A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		8C7048E7161BC2C9006F19A8 /* MemeInventoryTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemeInventoryTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C7048E8161BC2C9006F19A8 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		8C7048F0161BC2C9006F19A8 /* MemeInventoryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MemeInventoryTests-Info.plist"; sourceTree = "<group>"; };
+		8C7048F2161BC2C9006F19A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8C7048F4161BC2C9006F19A8 /* MemeInventoryTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemeInventoryTests.h; sourceTree = "<group>"; };
+		8C7048F5161BC2C9006F19A8 /* MemeInventoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemeInventoryTests.m; sourceTree = "<group>"; };
+		8C82EFDD161F545100C08CAA /* MIMemesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIMemesViewController.h; sourceTree = "<group>"; };
+		8C82EFDE161F545100C08CAA /* MIMemesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIMemesViewController.m; sourceTree = "<group>"; };
+		8C82EFE0161F548500C08CAA /* MIMemesViewControllerTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIMemesViewControllerTests.h; sourceTree = "<group>"; };
+		8C82EFE1161F548500C08CAA /* MIMemesViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIMemesViewControllerTests.m; sourceTree = "<group>"; };
+		8C82EFE4161F56CF00C08CAA /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		8C82EFEF161F5C9800C08CAA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8C82EFF1161F5E8400C08CAA /* MIMemesDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIMemesDataSource.h; sourceTree = "<group>"; };
+		8C82EFF2161F5E8400C08CAA /* MIMemesDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIMemesDataSource.m; sourceTree = "<group>"; };
+		8C82EFF7161F751E00C08CAA /* MIMemeCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIMemeCollectionViewCell.h; sourceTree = "<group>"; };
+		8C82EFF8161F751E00C08CAA /* MIMemeCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIMemeCollectionViewCell.m; sourceTree = "<group>"; };
+		8C82EFFB161F921900C08CAA /* overly-attached-girlfriend.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "overly-attached-girlfriend.jpg"; sourceTree = "<group>"; };
+		8C82EFFC161F921900C08CAA /* the-most-interesting-man-in-the-world.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "the-most-interesting-man-in-the-world.jpg"; sourceTree = "<group>"; };
+		8C82EFFD161F921900C08CAA /* upvoting-obama.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "upvoting-obama.png"; sourceTree = "<group>"; };
+		8C82F007161F950400C08CAA /* Meme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Meme.h; sourceTree = "<group>"; };
+		8C82F008161F950400C08CAA /* Meme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Meme.m; sourceTree = "<group>"; };
+		8C82F00A161F950400C08CAA /* MemeTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemeTemplate.h; sourceTree = "<group>"; };
+		8C82F00B161F950500C08CAA /* MemeTemplate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemeTemplate.m; sourceTree = "<group>"; };
+		8C82F00D161FA05300C08CAA /* MIMemeInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MIMemeInterface.h; sourceTree = "<group>"; };
+		8C82F00E161FA0F100C08CAA /* MIMemeTemplateInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MIMemeTemplateInterface.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C7048AF161BC2C9006F19A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C82EFF0161F5C9800C08CAA /* CoreData.framework in Frameworks */,
+				8C7048B7161BC2C9006F19A8 /* UIKit.framework in Frameworks */,
+				8C7048B9161BC2C9006F19A8 /* Foundation.framework in Frameworks */,
+				8C7048BB161BC2C9006F19A8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C7048E3161BC2C9006F19A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C7048E9161BC2C9006F19A8 /* SenTestingKit.framework in Frameworks */,
+				8C7048EA161BC2C9006F19A8 /* UIKit.framework in Frameworks */,
+				8C7048EB161BC2C9006F19A8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C7048A7161BC2C9006F19A8 = {
+			isa = PBXGroup;
+			children = (
+				8C82EFFA161F921900C08CAA /* Templates */,
+				8C7048BC161BC2C9006F19A8 /* MemeInventory */,
+				8C7048EE161BC2C9006F19A8 /* MemeInventoryTests */,
+				8C7048B5161BC2C9006F19A8 /* Frameworks */,
+				8C7048B3161BC2C9006F19A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C7048B3161BC2C9006F19A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C7048B2161BC2C9006F19A8 /* MemeInventory.app */,
+				8C7048E7161BC2C9006F19A8 /* MemeInventoryTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C7048B5161BC2C9006F19A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C82EFEF161F5C9800C08CAA /* CoreData.framework */,
+				8C7048B6161BC2C9006F19A8 /* UIKit.framework */,
+				8C7048B8161BC2C9006F19A8 /* Foundation.framework */,
+				8C7048BA161BC2C9006F19A8 /* CoreGraphics.framework */,
+				8C7048E8161BC2C9006F19A8 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8C7048BC161BC2C9006F19A8 /* MemeInventory */ = {
+			isa = PBXGroup;
+			children = (
+				8C82EFE3161F56CF00C08CAA /* DataModel.xcdatamodeld */,
+				8C82F00A161F950400C08CAA /* MemeTemplate.h */,
+				8C82F00B161F950500C08CAA /* MemeTemplate.m */,
+				8C82F007161F950400C08CAA /* Meme.h */,
+				8C82F008161F950400C08CAA /* Meme.m */,
+				8C7048D1161BC2C9006F19A8 /* MainStoryboard_iPad.storyboard */,
+				8C7048CE161BC2C9006F19A8 /* MainStoryboard_iPhone.storyboard */,
+				8C7048C5161BC2C9006F19A8 /* MIAppDelegate.h */,
+				8C7048C6161BC2C9006F19A8 /* MIAppDelegate.m */,
+				8C82EFF1161F5E8400C08CAA /* MIMemesDataSource.h */,
+				8C82EFF2161F5E8400C08CAA /* MIMemesDataSource.m */,
+				8C82EFDD161F545100C08CAA /* MIMemesViewController.h */,
+				8C82EFDE161F545100C08CAA /* MIMemesViewController.m */,
+				8C7048BD161BC2C9006F19A8 /* Supporting Files */,
+				8C82EFF7161F751E00C08CAA /* MIMemeCollectionViewCell.h */,
+				8C82EFF8161F751E00C08CAA /* MIMemeCollectionViewCell.m */,
+				8C82F00D161FA05300C08CAA /* MIMemeInterface.h */,
+				8C82F00E161FA0F100C08CAA /* MIMemeTemplateInterface.h */,
+			);
+			path = MemeInventory;
+			sourceTree = "<group>";
+		};
+		8C7048BD161BC2C9006F19A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C7048BE161BC2C9006F19A8 /* MemeInventory-Info.plist */,
+				8C7048BF161BC2C9006F19A8 /* InfoPlist.strings */,
+				8C7048C2161BC2C9006F19A8 /* main.m */,
+				8C7048C4161BC2C9006F19A8 /* MemeInventory-Prefix.pch */,
+				8C7048C8161BC2C9006F19A8 /* Default.png */,
+				8C7048CA161BC2C9006F19A8 /* Default@2x.png */,
+				8C7048CC161BC2C9006F19A8 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8C7048EE161BC2C9006F19A8 /* MemeInventoryTests */ = {
+			isa = PBXGroup;
+			children = (
+				8C7048F4161BC2C9006F19A8 /* MemeInventoryTests.h */,
+				8C7048F5161BC2C9006F19A8 /* MemeInventoryTests.m */,
+				8C82EFE0161F548500C08CAA /* MIMemesViewControllerTests.h */,
+				8C82EFE1161F548500C08CAA /* MIMemesViewControllerTests.m */,
+				8C7048EF161BC2C9006F19A8 /* Supporting Files */,
+			);
+			path = MemeInventoryTests;
+			sourceTree = "<group>";
+		};
+		8C7048EF161BC2C9006F19A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C7048F0161BC2C9006F19A8 /* MemeInventoryTests-Info.plist */,
+				8C7048F1161BC2C9006F19A8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8C82EFFA161F921900C08CAA /* Templates */ = {
+			isa = PBXGroup;
+			children = (
+				8C2519F3161FC54900423D68 /* thumb-annoyed-picard.jpeg */,
+				8C2519F4161FC54900423D68 /* thumb-annoyed-picard@2x.jpeg */,
+				8C2519F5161FC54900423D68 /* thumb-bad-luck-brian.png */,
+				8C2519F6161FC54900423D68 /* thumb-bad-luck-brian@2x.png */,
+				8C2519F7161FC54900423D68 /* thumb-confession-bear.jpeg */,
+				8C2519F8161FC54900423D68 /* thumb-confession-bear@2x.jpeg */,
+				8C2519F9161FC54900423D68 /* thumb-first-world-problems.jpeg */,
+				8C2519FA161FC54900423D68 /* thumb-first-world-problems@2x.jpeg */,
+				8C2519FB161FC54900423D68 /* thumb-forever-resentful-mother.jpeg */,
+				8C2519FC161FC54900423D68 /* thumb-forever-resentful-mother@2x.jpeg */,
+				8C2519FD161FC54900423D68 /* thumb-futurama-fry.jpeg */,
+				8C2519FE161FC54900423D68 /* thumb-futurama-fry@2x.jpeg */,
+				8C2519FF161FC54900423D68 /* thumb-good-girl-gina.jpeg */,
+				8C251A00161FC54900423D68 /* thumb-good-girl-gina@2x.jpeg */,
+				8C251A01161FC54900423D68 /* thumb-good-guy-greg.jpeg */,
+				8C251A02161FC54900423D68 /* thumb-good-guy-greg@2x.jpeg */,
+				8C251A03161FC54900423D68 /* thumb-inappropriate-timing-bill-clinton.jpeg */,
+				8C251A04161FC54900423D68 /* thumb-inappropriate-timing-bill-clinton@2x.jpeg */,
+				8C251A05161FC54900423D68 /* thumb-mckayla-is-not-impressed.jpeg */,
+				8C251A06161FC54900423D68 /* thumb-mckayla-is-not-impressed@2x.jpeg */,
+				8C251A07161FC54900423D68 /* thumb-overly-attached-girlfriend.jpg */,
+				8C251A08161FC54900423D68 /* thumb-overly-attached-girlfriend@2x.jpg */,
+				8C251A09161FC54900423D68 /* thumb-philosoraptor.jpeg */,
+				8C251A0A161FC54900423D68 /* thumb-philosoraptor@2x.jpeg */,
+				8C251A0B161FC54900423D68 /* thumb-redditors-wife.jpeg */,
+				8C251A0C161FC54900423D68 /* thumb-redditors-wife@2x.jpeg */,
+				8C251A0D161FC54900423D68 /* thumb-scumbag-steve.jpeg */,
+				8C251A0E161FC54900423D68 /* thumb-scumbag-steve@2x.jpeg */,
+				8C251A0F161FC54900423D68 /* thumb-socially-awkward-penguin.png */,
+				8C251A10161FC54900423D68 /* thumb-socially-awkward-penguin@2x.png */,
+				8C251A11161FC54900423D68 /* thumb-success-kid.png */,
+				8C251A12161FC54900423D68 /* thumb-success-kid@2x.png */,
+				8C251A13161FC54900423D68 /* thumb-sudden-clarity-clarence.jpeg */,
+				8C251A14161FC54900423D68 /* thumb-sudden-clarity-clarence@2x.jpeg */,
+				8C251A15161FC54900423D68 /* thumb-super-cool-ski-instructor.png */,
+				8C251A16161FC54900423D68 /* thumb-super-cool-ski-instructor@2x.png */,
+				8C251A17161FC54900423D68 /* thumb-the-most-interesting-man-in-the-world.jpg */,
+				8C251A18161FC54900423D68 /* thumb-the-most-interesting-man-in-the-world@2x.jpg */,
+				8C251A19161FC54900423D68 /* thumb-unhelpful-high-school-teacher.jpeg */,
+				8C251A1A161FC54900423D68 /* thumb-unhelpful-high-school-teacher@2x.jpeg */,
+				8C251A1B161FC54900423D68 /* thumb-upvoting-obama.png */,
+				8C251A1C161FC54900423D68 /* thumb-upvoting-obama@2x.png */,
+				8C251A1D161FC54900423D68 /* thumb-x-x-everywhere.jpeg */,
+				8C251A1E161FC54900423D68 /* thumb-x-x-everywhere@2x.jpeg */,
+				8C2519D7161FBE5300423D68 /* annoyed-picard.jpeg */,
+				8C2519D8161FBE5300423D68 /* confession-bear.jpeg */,
+				8C2519D9161FBE5300423D68 /* first-world-problems.jpeg */,
+				8C2519DA161FBE5300423D68 /* futurama-fry.jpeg */,
+				8C2519DB161FBE5300423D68 /* good-girl-gina.jpeg */,
+				8C82EFFC161F921900C08CAA /* the-most-interesting-man-in-the-world.jpg */,
+				8C2519DC161FBE5300423D68 /* inappropriate-timing-bill-clinton.jpeg */,
+				8C2519DD161FBE5300423D68 /* mckayla-is-not-impressed.jpeg */,
+				8C2519DE161FBE5300423D68 /* philosoraptor.jpeg */,
+				8C2519DF161FBE5300423D68 /* redditors-wife.jpeg */,
+				8C2519E0161FBE5300423D68 /* socially-awkward-penguin.png */,
+				8C2519E1161FBE5300423D68 /* success-kid.png */,
+				8C2519E2161FBE5300423D68 /* sudden-clarity-clarence.jpeg */,
+				8C2519E3161FBE5300423D68 /* unhelpful-high-school-teacher.jpeg */,
+				8C2519E4161FBE5300423D68 /* x-x-everywhere.jpeg */,
+				8C2519CC161FB64F00423D68 /* bad-luck-brian.png */,
+				8C2519CD161FB64F00423D68 /* forever-resentful-mother.jpeg */,
+				8C2519CE161FB64F00423D68 /* good-guy-greg.jpeg */,
+				8C2519CF161FB64F00423D68 /* scumbag-steve.jpeg */,
+				8C2519D0161FB64F00423D68 /* super-cool-ski-instructor.png */,
+				8C82EFFB161F921900C08CAA /* overly-attached-girlfriend.jpg */,
+				8C82EFFD161F921900C08CAA /* upvoting-obama.png */,
+			);
+			name = Templates;
+			path = MemeInventory/Templates;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C7048B1161BC2C9006F19A8 /* MemeInventory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C7048F9161BC2C9006F19A8 /* Build configuration list for PBXNativeTarget "MemeInventory" */;
+			buildPhases = (
+				8C7048AE161BC2C9006F19A8 /* Sources */,
+				8C7048AF161BC2C9006F19A8 /* Frameworks */,
+				8C7048B0161BC2C9006F19A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MemeInventory;
+			productName = MemeInventory;
+			productReference = 8C7048B2161BC2C9006F19A8 /* MemeInventory.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C7048E6161BC2C9006F19A8 /* MemeInventoryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C7048FC161BC2C9006F19A8 /* Build configuration list for PBXNativeTarget "MemeInventoryTests" */;
+			buildPhases = (
+				8C7048E2161BC2C9006F19A8 /* Sources */,
+				8C7048E3161BC2C9006F19A8 /* Frameworks */,
+				8C7048E4161BC2C9006F19A8 /* Resources */,
+				8C7048E5161BC2C9006F19A8 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C7048ED161BC2C9006F19A8 /* PBXTargetDependency */,
+			);
+			name = MemeInventoryTests;
+			productName = MemeInventoryTests;
+			productReference = 8C7048E7161BC2C9006F19A8 /* MemeInventoryTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C7048A9161BC2C9006F19A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MI;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Amos Chan";
+			};
+			buildConfigurationList = 8C7048AC161BC2C9006F19A8 /* Build configuration list for PBXProject "MemeInventory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8C7048A7161BC2C9006F19A8;
+			productRefGroup = 8C7048B3161BC2C9006F19A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C7048B1161BC2C9006F19A8 /* MemeInventory */,
+				8C7048E6161BC2C9006F19A8 /* MemeInventoryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C7048B0161BC2C9006F19A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C7048C1161BC2C9006F19A8 /* InfoPlist.strings in Resources */,
+				8C7048C9161BC2C9006F19A8 /* Default.png in Resources */,
+				8C7048CB161BC2C9006F19A8 /* Default@2x.png in Resources */,
+				8C7048CD161BC2C9006F19A8 /* Default-568h@2x.png in Resources */,
+				8C7048D0161BC2C9006F19A8 /* MainStoryboard_iPhone.storyboard in Resources */,
+				8C7048D3161BC2C9006F19A8 /* MainStoryboard_iPad.storyboard in Resources */,
+				8C82EFFE161F921900C08CAA /* overly-attached-girlfriend.jpg in Resources */,
+				8C82EFFF161F921900C08CAA /* the-most-interesting-man-in-the-world.jpg in Resources */,
+				8C82F000161F921900C08CAA /* upvoting-obama.png in Resources */,
+				8C2519D1161FB64F00423D68 /* bad-luck-brian.png in Resources */,
+				8C2519D2161FB64F00423D68 /* forever-resentful-mother.jpeg in Resources */,
+				8C2519D3161FB64F00423D68 /* good-guy-greg.jpeg in Resources */,
+				8C2519D4161FB64F00423D68 /* scumbag-steve.jpeg in Resources */,
+				8C2519D5161FB64F00423D68 /* super-cool-ski-instructor.png in Resources */,
+				8C2519E5161FBE5300423D68 /* annoyed-picard.jpeg in Resources */,
+				8C2519E6161FBE5300423D68 /* confession-bear.jpeg in Resources */,
+				8C2519E7161FBE5300423D68 /* first-world-problems.jpeg in Resources */,
+				8C2519E8161FBE5300423D68 /* futurama-fry.jpeg in Resources */,
+				8C2519E9161FBE5300423D68 /* good-girl-gina.jpeg in Resources */,
+				8C2519EA161FBE5300423D68 /* inappropriate-timing-bill-clinton.jpeg in Resources */,
+				8C2519EB161FBE5300423D68 /* mckayla-is-not-impressed.jpeg in Resources */,
+				8C2519EC161FBE5300423D68 /* philosoraptor.jpeg in Resources */,
+				8C2519ED161FBE5300423D68 /* redditors-wife.jpeg in Resources */,
+				8C2519EE161FBE5300423D68 /* socially-awkward-penguin.png in Resources */,
+				8C2519EF161FBE5300423D68 /* success-kid.png in Resources */,
+				8C2519F0161FBE5300423D68 /* sudden-clarity-clarence.jpeg in Resources */,
+				8C2519F1161FBE5300423D68 /* unhelpful-high-school-teacher.jpeg in Resources */,
+				8C2519F2161FBE5300423D68 /* x-x-everywhere.jpeg in Resources */,
+				8C251A1F161FC54900423D68 /* thumb-annoyed-picard.jpeg in Resources */,
+				8C251A20161FC54900423D68 /* thumb-annoyed-picard@2x.jpeg in Resources */,
+				8C251A21161FC54900423D68 /* thumb-bad-luck-brian.png in Resources */,
+				8C251A22161FC54900423D68 /* thumb-bad-luck-brian@2x.png in Resources */,
+				8C251A23161FC54900423D68 /* thumb-confession-bear.jpeg in Resources */,
+				8C251A24161FC54900423D68 /* thumb-confession-bear@2x.jpeg in Resources */,
+				8C251A25161FC54900423D68 /* thumb-first-world-problems.jpeg in Resources */,
+				8C251A26161FC54900423D68 /* thumb-first-world-problems@2x.jpeg in Resources */,
+				8C251A27161FC54900423D68 /* thumb-forever-resentful-mother.jpeg in Resources */,
+				8C251A28161FC54900423D68 /* thumb-forever-resentful-mother@2x.jpeg in Resources */,
+				8C251A29161FC54900423D68 /* thumb-futurama-fry.jpeg in Resources */,
+				8C251A2A161FC54900423D68 /* thumb-futurama-fry@2x.jpeg in Resources */,
+				8C251A2B161FC54900423D68 /* thumb-good-girl-gina.jpeg in Resources */,
+				8C251A2C161FC54900423D68 /* thumb-good-girl-gina@2x.jpeg in Resources */,
+				8C251A2D161FC54900423D68 /* thumb-good-guy-greg.jpeg in Resources */,
+				8C251A2E161FC54900423D68 /* thumb-good-guy-greg@2x.jpeg in Resources */,
+				8C251A2F161FC54900423D68 /* thumb-inappropriate-timing-bill-clinton.jpeg in Resources */,
+				8C251A30161FC54900423D68 /* thumb-inappropriate-timing-bill-clinton@2x.jpeg in Resources */,
+				8C251A31161FC54900423D68 /* thumb-mckayla-is-not-impressed.jpeg in Resources */,
+				8C251A32161FC54900423D68 /* thumb-mckayla-is-not-impressed@2x.jpeg in Resources */,
+				8C251A33161FC54900423D68 /* thumb-overly-attached-girlfriend.jpg in Resources */,
+				8C251A34161FC54900423D68 /* thumb-overly-attached-girlfriend@2x.jpg in Resources */,
+				8C251A35161FC54900423D68 /* thumb-philosoraptor.jpeg in Resources */,
+				8C251A36161FC54900423D68 /* thumb-philosoraptor@2x.jpeg in Resources */,
+				8C251A37161FC54900423D68 /* thumb-redditors-wife.jpeg in Resources */,
+				8C251A38161FC54900423D68 /* thumb-redditors-wife@2x.jpeg in Resources */,
+				8C251A39161FC54900423D68 /* thumb-scumbag-steve.jpeg in Resources */,
+				8C251A3A161FC54900423D68 /* thumb-scumbag-steve@2x.jpeg in Resources */,
+				8C251A3B161FC54900423D68 /* thumb-socially-awkward-penguin.png in Resources */,
+				8C251A3C161FC54900423D68 /* thumb-socially-awkward-penguin@2x.png in Resources */,
+				8C251A3D161FC54900423D68 /* thumb-success-kid.png in Resources */,
+				8C251A3E161FC54900423D68 /* thumb-success-kid@2x.png in Resources */,
+				8C251A3F161FC54900423D68 /* thumb-sudden-clarity-clarence.jpeg in Resources */,
+				8C251A40161FC54900423D68 /* thumb-sudden-clarity-clarence@2x.jpeg in Resources */,
+				8C251A41161FC54900423D68 /* thumb-super-cool-ski-instructor.png in Resources */,
+				8C251A42161FC54900423D68 /* thumb-super-cool-ski-instructor@2x.png in Resources */,
+				8C251A43161FC54900423D68 /* thumb-the-most-interesting-man-in-the-world.jpg in Resources */,
+				8C251A44161FC54900423D68 /* thumb-the-most-interesting-man-in-the-world@2x.jpg in Resources */,
+				8C251A45161FC54900423D68 /* thumb-unhelpful-high-school-teacher.jpeg in Resources */,
+				8C251A46161FC54900423D68 /* thumb-unhelpful-high-school-teacher@2x.jpeg in Resources */,
+				8C251A47161FC54900423D68 /* thumb-upvoting-obama.png in Resources */,
+				8C251A48161FC54900423D68 /* thumb-upvoting-obama@2x.png in Resources */,
+				8C251A49161FC54900423D68 /* thumb-x-x-everywhere.jpeg in Resources */,
+				8C251A4A161FC54900423D68 /* thumb-x-x-everywhere@2x.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C7048E4161BC2C9006F19A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C7048F3161BC2C9006F19A8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8C7048E5161BC2C9006F19A8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C7048AE161BC2C9006F19A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C7048C3161BC2C9006F19A8 /* main.m in Sources */,
+				8C7048C7161BC2C9006F19A8 /* MIAppDelegate.m in Sources */,
+				8C82EFDF161F545100C08CAA /* MIMemesViewController.m in Sources */,
+				8C82EFE5161F56CF00C08CAA /* DataModel.xcdatamodeld in Sources */,
+				8C82EFF3161F5E8400C08CAA /* MIMemesDataSource.m in Sources */,
+				8C82EFF9161F751E00C08CAA /* MIMemeCollectionViewCell.m in Sources */,
+				8C82F009161F950400C08CAA /* Meme.m in Sources */,
+				8C82F00C161F950500C08CAA /* MemeTemplate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C7048E2161BC2C9006F19A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C7048F6161BC2C9006F19A8 /* MemeInventoryTests.m in Sources */,
+				8C82EFE2161F548500C08CAA /* MIMemesViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C7048ED161BC2C9006F19A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C7048B1161BC2C9006F19A8 /* MemeInventory */;
+			targetProxy = 8C7048EC161BC2C9006F19A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8C7048BF161BC2C9006F19A8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C7048C0161BC2C9006F19A8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8C7048CE161BC2C9006F19A8 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C7048CF161BC2C9006F19A8 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		8C7048D1161BC2C9006F19A8 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C7048D2161BC2C9006F19A8 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		8C7048F1161BC2C9006F19A8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C7048F2161BC2C9006F19A8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C7048F7161BC2C9006F19A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Amos Simeon Chan (N4MBENC9HE)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Amos Simeon Chan (N4MBENC9HE)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PROVISIONING_PROFILE = "43891DD4-C636-4E8A-B3BA-121D192C5AA3";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "43891DD4-C636-4E8A-B3BA-121D192C5AA3";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C7048F8161BC2C9006F19A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C7048FA161BC2C9006F19A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MemeInventory/MemeInventory-Prefix.pch";
+				INFOPLIST_FILE = "MemeInventory/MemeInventory-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8C7048FB161BC2C9006F19A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MemeInventory/MemeInventory-Prefix.pch";
+				INFOPLIST_FILE = "MemeInventory/MemeInventory-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8C7048FD161BC2C9006F19A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MemeInventory.app/MemeInventory";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MemeInventory/MemeInventory-Prefix.pch";
+				INFOPLIST_FILE = "MemeInventoryTests/MemeInventoryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		8C7048FE161BC2C9006F19A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MemeInventory.app/MemeInventory";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MemeInventory/MemeInventory-Prefix.pch";
+				INFOPLIST_FILE = "MemeInventoryTests/MemeInventoryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C7048AC161BC2C9006F19A8 /* Build configuration list for PBXProject "MemeInventory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C7048F7161BC2C9006F19A8 /* Debug */,
+				8C7048F8161BC2C9006F19A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C7048F9161BC2C9006F19A8 /* Build configuration list for PBXNativeTarget "MemeInventory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C7048FA161BC2C9006F19A8 /* Debug */,
+				8C7048FB161BC2C9006F19A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C7048FC161BC2C9006F19A8 /* Build configuration list for PBXNativeTarget "MemeInventoryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C7048FD161BC2C9006F19A8 /* Debug */,
+				8C7048FE161BC2C9006F19A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8C82EFE3161F56CF00C08CAA /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8C82EFE4161F56CF00C08CAA /* DataModel.xcdatamodel */,
+			);
+			currentVersion = 8C82EFE4161F56CF00C08CAA /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8C7048A9161BC2C9006F19A8 /* Project object */;
+}
