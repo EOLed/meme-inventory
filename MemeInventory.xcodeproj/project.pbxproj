@@ -70,6 +70,10 @@
 		8C251A48161FC54900423D68 /* thumb-upvoting-obama@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C251A1C161FC54900423D68 /* thumb-upvoting-obama@2x.png */; };
 		8C251A49161FC54900423D68 /* thumb-x-x-everywhere.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C251A1D161FC54900423D68 /* thumb-x-x-everywhere.jpeg */; };
 		8C251A4A161FC54900423D68 /* thumb-x-x-everywhere@2x.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C251A1E161FC54900423D68 /* thumb-x-x-everywhere@2x.jpeg */; };
+		8C251A4D16208D1F00423D68 /* MIMemesDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C251A4C16208D1F00423D68 /* MIMemesDelegate.m */; };
+		8C251A50162090BE00423D68 /* MICreateMemeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C251A4F162090BE00423D68 /* MICreateMemeViewController.m */; };
+		8C251A531620916700423D68 /* MICreateMemeViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C251A521620916700423D68 /* MICreateMemeViewControllerTests.m */; };
+		8C251A561620D50B00423D68 /* MIElasticImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C251A551620D50B00423D68 /* MIElasticImageView.m */; };
 		8C7048B7161BC2C9006F19A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C7048B6161BC2C9006F19A8 /* UIKit.framework */; };
 		8C7048B9161BC2C9006F19A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C7048B8161BC2C9006F19A8 /* Foundation.framework */; };
 		8C7048BB161BC2C9006F19A8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C7048BA161BC2C9006F19A8 /* CoreGraphics.framework */; };
@@ -173,7 +177,15 @@
 		8C251A1C161FC54900423D68 /* thumb-upvoting-obama@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumb-upvoting-obama@2x.png"; sourceTree = "<group>"; };
 		8C251A1D161FC54900423D68 /* thumb-x-x-everywhere.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "thumb-x-x-everywhere.jpeg"; sourceTree = "<group>"; };
 		8C251A1E161FC54900423D68 /* thumb-x-x-everywhere@2x.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "thumb-x-x-everywhere@2x.jpeg"; sourceTree = "<group>"; };
-		8C7048B2161BC2C9006F19A8 /* MemeInventory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemeInventory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C251A4B16208D1F00423D68 /* MIMemesDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIMemesDelegate.h; sourceTree = "<group>"; };
+		8C251A4C16208D1F00423D68 /* MIMemesDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIMemesDelegate.m; sourceTree = "<group>"; };
+		8C251A4E162090BE00423D68 /* MICreateMemeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MICreateMemeViewController.h; sourceTree = "<group>"; };
+		8C251A4F162090BE00423D68 /* MICreateMemeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MICreateMemeViewController.m; sourceTree = "<group>"; };
+		8C251A511620916700423D68 /* MICreateMemeViewControllerTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MICreateMemeViewControllerTests.h; sourceTree = "<group>"; };
+		8C251A521620916700423D68 /* MICreateMemeViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MICreateMemeViewControllerTests.m; sourceTree = "<group>"; };
+		8C251A541620D50A00423D68 /* MIElasticImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIElasticImageView.h; sourceTree = "<group>"; };
+		8C251A551620D50B00423D68 /* MIElasticImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIElasticImageView.m; sourceTree = "<group>"; };
+		8C7048B2161BC2C9006F19A8 /* Memes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C7048B6161BC2C9006F19A8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8C7048B8161BC2C9006F19A8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8C7048BA161BC2C9006F19A8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -254,7 +266,7 @@
 		8C7048B3161BC2C9006F19A8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8C7048B2161BC2C9006F19A8 /* MemeInventory.app */,
+				8C7048B2161BC2C9006F19A8 /* Memes.app */,
 				8C7048E7161BC2C9006F19A8 /* MemeInventoryTests.octest */,
 			);
 			name = Products;
@@ -276,23 +288,29 @@
 			isa = PBXGroup;
 			children = (
 				8C82EFE3161F56CF00C08CAA /* DataModel.xcdatamodeld */,
-				8C82F00A161F950400C08CAA /* MemeTemplate.h */,
-				8C82F00B161F950500C08CAA /* MemeTemplate.m */,
-				8C82F007161F950400C08CAA /* Meme.h */,
-				8C82F008161F950400C08CAA /* Meme.m */,
 				8C7048D1161BC2C9006F19A8 /* MainStoryboard_iPad.storyboard */,
 				8C7048CE161BC2C9006F19A8 /* MainStoryboard_iPhone.storyboard */,
+				8C82F007161F950400C08CAA /* Meme.h */,
+				8C82F008161F950400C08CAA /* Meme.m */,
+				8C82F00A161F950400C08CAA /* MemeTemplate.h */,
+				8C82F00B161F950500C08CAA /* MemeTemplate.m */,
 				8C7048C5161BC2C9006F19A8 /* MIAppDelegate.h */,
 				8C7048C6161BC2C9006F19A8 /* MIAppDelegate.m */,
-				8C82EFF1161F5E8400C08CAA /* MIMemesDataSource.h */,
-				8C82EFF2161F5E8400C08CAA /* MIMemesDataSource.m */,
-				8C82EFDD161F545100C08CAA /* MIMemesViewController.h */,
-				8C82EFDE161F545100C08CAA /* MIMemesViewController.m */,
-				8C7048BD161BC2C9006F19A8 /* Supporting Files */,
+				8C251A4E162090BE00423D68 /* MICreateMemeViewController.h */,
+				8C251A4F162090BE00423D68 /* MICreateMemeViewController.m */,
+				8C251A541620D50A00423D68 /* MIElasticImageView.h */,
+				8C251A551620D50B00423D68 /* MIElasticImageView.m */,
 				8C82EFF7161F751E00C08CAA /* MIMemeCollectionViewCell.h */,
 				8C82EFF8161F751E00C08CAA /* MIMemeCollectionViewCell.m */,
 				8C82F00D161FA05300C08CAA /* MIMemeInterface.h */,
+				8C82EFF1161F5E8400C08CAA /* MIMemesDataSource.h */,
+				8C82EFF2161F5E8400C08CAA /* MIMemesDataSource.m */,
+				8C251A4B16208D1F00423D68 /* MIMemesDelegate.h */,
+				8C251A4C16208D1F00423D68 /* MIMemesDelegate.m */,
+				8C82EFDD161F545100C08CAA /* MIMemesViewController.h */,
+				8C82EFDE161F545100C08CAA /* MIMemesViewController.m */,
 				8C82F00E161FA0F100C08CAA /* MIMemeTemplateInterface.h */,
+				8C7048BD161BC2C9006F19A8 /* Supporting Files */,
 			);
 			path = MemeInventory;
 			sourceTree = "<group>";
@@ -316,6 +334,8 @@
 			children = (
 				8C7048F4161BC2C9006F19A8 /* MemeInventoryTests.h */,
 				8C7048F5161BC2C9006F19A8 /* MemeInventoryTests.m */,
+				8C251A511620916700423D68 /* MICreateMemeViewControllerTests.h */,
+				8C251A521620916700423D68 /* MICreateMemeViewControllerTests.m */,
 				8C82EFE0161F548500C08CAA /* MIMemesViewControllerTests.h */,
 				8C82EFE1161F548500C08CAA /* MIMemesViewControllerTests.m */,
 				8C7048EF161BC2C9006F19A8 /* Supporting Files */,
@@ -423,7 +443,7 @@
 			);
 			name = MemeInventory;
 			productName = MemeInventory;
-			productReference = 8C7048B2161BC2C9006F19A8 /* MemeInventory.app */;
+			productReference = 8C7048B2161BC2C9006F19A8 /* Memes.app */;
 			productType = "com.apple.product-type.application";
 		};
 		8C7048E6161BC2C9006F19A8 /* MemeInventoryTests */ = {
@@ -592,6 +612,9 @@
 				8C82EFF9161F751E00C08CAA /* MIMemeCollectionViewCell.m in Sources */,
 				8C82F009161F950400C08CAA /* Meme.m in Sources */,
 				8C82F00C161F950500C08CAA /* MemeTemplate.m in Sources */,
+				8C251A4D16208D1F00423D68 /* MIMemesDelegate.m in Sources */,
+				8C251A50162090BE00423D68 /* MICreateMemeViewController.m in Sources */,
+				8C251A561620D50B00423D68 /* MIElasticImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -601,6 +624,7 @@
 			files = (
 				8C7048F6161BC2C9006F19A8 /* MemeInventoryTests.m in Sources */,
 				8C82EFE2161F548500C08CAA /* MIMemesViewControllerTests.m in Sources */,
+				8C251A531620916700423D68 /* MICreateMemeViewControllerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -677,7 +701,7 @@
 				PROVISIONING_PROFILE = "43891DD4-C636-4E8A-B3BA-121D192C5AA3";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "43891DD4-C636-4E8A-B3BA-121D192C5AA3";
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -699,7 +723,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -710,7 +734,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MemeInventory/MemeInventory-Prefix.pch";
 				INFOPLIST_FILE = "MemeInventory/MemeInventory-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Memes;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -721,7 +745,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MemeInventory/MemeInventory-Prefix.pch";
 				INFOPLIST_FILE = "MemeInventory/MemeInventory-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Memes;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

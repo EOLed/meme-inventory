@@ -27,19 +27,19 @@
                     <collectionView key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" minimumZoomScale="0.0" maximumZoomScale="0.0" dataMode="prototypes" id="WM1-z9-7Nl">
                         <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
-                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="vbs-rQ-i7R">
-                            <size key="itemSize" width="100" height="100"/>
-                            <size key="headerReferenceSize" width="50" height="50"/>
-                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="3" minimumInteritemSpacing="2" id="vbs-rQ-i7R">
+                            <size key="itemSize" width="104" height="104"/>
+                            <size key="headerReferenceSize" width="0.0" height="3"/>
+                            <size key="footerReferenceSize" width="0.0" height="3"/>
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         </collectionViewFlowLayout>
                         <cells>
                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MemeTemplateCell" id="cGl-tD-GeX" customClass="MIMemeCollectionViewCell">
-                                <rect key="frame" x="0.0" y="50" width="100" height="100"/>
+                                <rect key="frame" x="0.0" y="3" width="104" height="104"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                    <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="104" height="104"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="NxV-hY-qBb">
@@ -60,8 +60,12 @@
                                 </connections>
                             </collectionViewCell>
                         </cells>
-                        <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="uvP-I2-bsD">
-                            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+                        <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="InD-Ua-bTF">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="3"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                        </collectionReusableView>
+                        <collectionReusableView key="sectionFooterView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="18l-T1-tDS">
+                            <rect key="frame" x="0.0" y="107" width="320" height="3"/>
                             <autoresizingMask key="autoresizingMask"/>
                         </collectionReusableView>
                     </collectionView>
@@ -131,8 +135,52 @@
             </objects>
             <point key="canvasLocation" x="155" y="495"/>
         </scene>
+        <!--Create Meme View Controller-->
+        <scene sceneID="Ojd-Ge-ucw">
+            <objects>
+                <viewController storyboardIdentifier="MICreateMemeViewController" id="kWj-WN-qDy" customClass="MICreateMemeViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ffd-RV-REu">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="anO-tf-rX4" customClass="UIImageView">
+                                <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="anO-tf-rX4" firstAttribute="top" secondItem="ffd-RV-REu" secondAttribute="top" type="default" id="2Bi-em-NPp"/>
+                            <constraint firstItem="anO-tf-rX4" firstAttribute="bottom" secondItem="ffd-RV-REu" secondAttribute="bottom" type="default" id="6Ry-ak-9Qt"/>
+                            <constraint firstItem="anO-tf-rX4" firstAttribute="trailing" secondItem="ffd-RV-REu" secondAttribute="trailing" type="default" id="A6b-2s-l1f"/>
+                            <constraint firstItem="anO-tf-rX4" firstAttribute="leading" secondItem="ffd-RV-REu" secondAttribute="leading" type="default" id="chu-Wh-3FD"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="sOi-bx-kbW">
+                        <barButtonItem key="leftBarButtonItem" title="Cancel" id="Sa4-e7-sbv">
+                            <connections>
+                                <action selector="cancel:" destination="kWj-WN-qDy" id="4w9-qX-a3s"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="ks1-yk-3e3"/>
+                    </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="memeView" destination="anO-tf-rX4" id="y9t-9f-DHV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mb9-ep-bEq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="679" y="495"/>
+        </scene>
     </scenes>
     <classes>
+        <class className="MICreateMemeViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MICreateMemeViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="cancel:"/>
+                <relationship kind="outlet" name="memeView" candidateClass="UIImageView"/>
+            </relationships>
+        </class>
         <class className="MIMemeCollectionViewCell" superclassName="UICollectionViewCell">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/MIMemeCollectionViewCell.h"/>
             <relationships>
@@ -142,10 +190,14 @@
         <class className="MIMemesDataSource" superclassName="NSObject">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/MIMemesDataSource.h"/>
         </class>
+        <class className="MIMemesDelegate" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MIMemesDelegate.h"/>
+        </class>
         <class className="MIMemesViewController" superclassName="UICollectionViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/MIMemesViewController.h"/>
             <relationships>
                 <relationship kind="outlet" name="dataSource_" candidateClass="MIMemesDataSource"/>
+                <relationship kind="outlet" name="delegate_" candidateClass="MIMemesDelegate"/>
             </relationships>
         </class>
         <class className="NSLayoutConstraint" superclassName="NSObject">

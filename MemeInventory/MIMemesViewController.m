@@ -8,6 +8,7 @@
 
 #import "MIMemesViewController.h"
 #import "MIMemesDataSource.h"
+#import "MIMemesDelegate.h"
 
 @interface MIMemesViewController ()
 
@@ -20,8 +21,7 @@
   self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
   
   if (self) {
-    self.dataSource = [[MIMemesDataSource alloc] init];
-    self.collectionView.dataSource = self.dataSource;
+    
   }
   
   return self;
@@ -32,6 +32,9 @@
   [super viewDidLoad];
   self.dataSource = [[MIMemesDataSource alloc] init];
   self.collectionView.dataSource = self.dataSource;
+  
+  self.delegate = [[MIMemesDelegate alloc] initWithViewController:self];
+  self.collectionView.delegate = self.delegate;
 	// Do any additional setup after loading the view.
 }
 

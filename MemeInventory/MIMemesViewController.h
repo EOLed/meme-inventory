@@ -9,13 +9,16 @@
 #import <UIKit/UIKit.h>
 
 @class MIMemesDataSource;
+@class MIMemesDelegate;
 
 @interface MIMemesViewController : UICollectionViewController
 {
   @private
   IBOutlet MIMemesDataSource * dataSource_;
+  IBOutlet MIMemesDelegate * delegate_;
 }
 
 @property (strong) MIMemesDataSource * dataSource;
+@property (strong) MIMemesDelegate * delegate;
 
 @end
