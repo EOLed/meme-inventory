@@ -18,7 +18,7 @@
   if (self) {
     self.clipsToBounds = YES;
     _imageView = [[UIImageView alloc] initWithFrame:self.bounds];
-    _imageView.contentMode = UIViewContentModeScaleAspectFill;
+    _imageView.contentMode = UIViewContentModeScaleAspectFit;
     [self addSubview:_imageView];
   }
   return self;
@@ -71,6 +71,12 @@
     imageViewWidth = self.image.size.width * heightScaleFactor;
     imageViewHeight = self.image.size.height * heightScaleFactor;
     imageViewXOrigin = - (imageViewWidth - CGRectGetWidth(self.bounds))/2;
+  }
+  
+  if (self.image.size.width > self.bounds.size.width) {
+    imageViewWidth = self.bounds.size.width;
+    imageViewHeight = imageViewWidth * imageViewHeight / (self.image.size.width * heightScaleFactor);
+    imageViewXOrigin = 0;
   }
   
   _imageView.frame = CGRectMake(imageViewXOrigin,

@@ -14,11 +14,11 @@
 {
   @private
   id<MIMemeTemplateInterface> template_;
-  UIImageView * memeView_;
+  MIElasticImageView * memeView_;
 }
 
 @property (strong) id<MIMemeTemplateInterface> template;
-@property (strong) IBOutlet UIImageView *memeView;
+@property (strong) IBOutlet MIElasticImageView *memeView;
 
 - (IBAction)cancel:(id)sender;
 

@@ -49,10 +49,12 @@
                                                     inDirectory:@""];
   UIImage * image = [[UIImage alloc] initWithContentsOfFile:imagePath];
   
+  self.memeView = [[MIElasticImageView alloc] initWithFrame:self.view.frame];
+  [self.memeView setImage:image];
+  
   //[self.memeView setImage:image]; 
   //self.memeView = [[UIImageView alloc] initWithImage:image];
-  self.memeView.image = image;
-  self.memeView.frame = CGRectMake(0, 0, 200, 200);// CGSizeMake(100, 100);
+  [self.view addSubview:self.memeView];
 }
 
 - (void)didReceiveMemoryWarning
