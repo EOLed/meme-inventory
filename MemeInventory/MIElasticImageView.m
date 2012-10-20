@@ -79,10 +79,17 @@
     imageViewXOrigin = 0;
   }
   
+  NSLog(@"image view height: %f", imageViewHeight);
+  
   _imageView.frame = CGRectMake(imageViewXOrigin,
                                 imageViewYOrigin,
                                 imageViewWidth,
                                 imageViewHeight);
+}
+
+- (CGFloat) imageViewHeight {
+  NSLog(@"imageviewheight: %f", _imageView.frame.size.height);
+  return _imageView.frame.size.height;
 }
 
 - (void)setFrame:(CGRect)frame

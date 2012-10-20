@@ -16,6 +16,7 @@
   @private
   IBOutlet MIMemesDataSource * dataSource_;
   IBOutlet MIMemesDelegate * delegate_;
+  
 }
 
 @property (strong) MIMemesDataSource * dataSource;

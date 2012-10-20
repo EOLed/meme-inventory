@@ -1,0 +1,3 @@
+[submodule "EGOTextView"]
+	path = EGOTextView
+	url = git@github.com:achan/EGOTextView.git

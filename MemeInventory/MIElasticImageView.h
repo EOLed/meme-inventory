@@ -15,5 +15,6 @@
 @property (strong) UIImage *image;
 
 - (id) initWithImage:(UIImage *)image;
+- (CGFloat) imageViewHeight;
 
 @end

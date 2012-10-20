@@ -90,6 +90,7 @@
 		8C7048EB161BC2C9006F19A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C7048B8161BC2C9006F19A8 /* Foundation.framework */; };
 		8C7048F3161BC2C9006F19A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8C7048F1161BC2C9006F19A8 /* InfoPlist.strings */; };
 		8C7048F6161BC2C9006F19A8 /* MemeInventoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C7048F5161BC2C9006F19A8 /* MemeInventoryTests.m */; };
+		8C749A13162CF92A00CA4769 /* Impact.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8C749A12162CF92A00CA4769 /* Impact.ttf */; };
 		8C82EFDF161F545100C08CAA /* MIMemesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C82EFDE161F545100C08CAA /* MIMemesViewController.m */; };
 		8C82EFE2161F548500C08CAA /* MIMemesViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C82EFE1161F548500C08CAA /* MIMemesViewControllerTests.m */; };
 		8C82EFE5161F56CF00C08CAA /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8C82EFE3161F56CF00C08CAA /* DataModel.xcdatamodeld */; };
@@ -101,6 +102,17 @@
 		8C82F000161F921900C08CAA /* upvoting-obama.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C82EFFD161F921900C08CAA /* upvoting-obama.png */; };
 		8C82F009161F950400C08CAA /* Meme.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C82F008161F950400C08CAA /* Meme.m */; };
 		8C82F00C161F950500C08CAA /* MemeTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C82F00B161F950500C08CAA /* MemeTemplate.m */; };
+		8C98FC63162E36D3001B501E /* drag-dot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C98FC5B162E36D2001B501E /* drag-dot@2x.png */; };
+		8C98FC64162E36D3001B501E /* loupe-hi@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C98FC5C162E36D2001B501E /* loupe-hi@2x.png */; };
+		8C98FC65162E36D3001B501E /* loupe-lo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C98FC5D162E36D3001B501E /* loupe-lo@2x.png */; };
+		8C98FC66162E36D3001B501E /* loupe-mask@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C98FC5E162E36D3001B501E /* loupe-mask@2x.png */; };
+		8C98FC67162E36D3001B501E /* magnifier-ranged-hi@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C98FC5F162E36D3001B501E /* magnifier-ranged-hi@2x.png */; };
+		8C98FC68162E36D3001B501E /* magnifier-ranged-lo-stemless@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C98FC60162E36D3001B501E /* magnifier-ranged-lo-stemless@2x.png */; };
+		8C98FC69162E36D3001B501E /* magnifier-ranged-lo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C98FC61162E36D3001B501E /* magnifier-ranged-lo@2x.png */; };
+		8C98FC6A162E36D3001B501E /* magnifier-ranged-mask@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C98FC62162E36D3001B501E /* magnifier-ranged-mask@2x.png */; };
+		8CFEE5531625132A0043E3A6 /* EGOTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CFEE5521625132A0043E3A6 /* EGOTextView.m */; };
+		8CFEE55F1625139C0043E3A6 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CFEE55E1625139C0043E3A6 /* CoreText.framework */; };
+		8CFEE561162513A20043E3A6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CFEE560162513A20043E3A6 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,6 +122,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 8C7048B1161BC2C9006F19A8;
 			remoteInfo = MemeInventory;
+		};
+		8CFEE55C1625137C0043E3A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CFEE5541625137C0043E3A6 /* EGOTextView_Demo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 03FF5EC7135CA49D00268656;
+			remoteInfo = EGOTextView_Demo;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -206,6 +225,7 @@
 		8C7048F2161BC2C9006F19A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8C7048F4161BC2C9006F19A8 /* MemeInventoryTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemeInventoryTests.h; sourceTree = "<group>"; };
 		8C7048F5161BC2C9006F19A8 /* MemeInventoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemeInventoryTests.m; sourceTree = "<group>"; };
+		8C749A12162CF92A00CA4769 /* Impact.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Impact.ttf; path = MemeInventory/Impact.ttf; sourceTree = "<group>"; };
 		8C82EFDD161F545100C08CAA /* MIMemesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIMemesViewController.h; sourceTree = "<group>"; };
 		8C82EFDE161F545100C08CAA /* MIMemesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIMemesViewController.m; sourceTree = "<group>"; };
 		8C82EFE0161F548500C08CAA /* MIMemesViewControllerTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIMemesViewControllerTests.h; sourceTree = "<group>"; };
@@ -225,6 +245,19 @@
 		8C82F00B161F950500C08CAA /* MemeTemplate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemeTemplate.m; sourceTree = "<group>"; };
 		8C82F00D161FA05300C08CAA /* MIMemeInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MIMemeInterface.h; sourceTree = "<group>"; };
 		8C82F00E161FA0F100C08CAA /* MIMemeTemplateInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MIMemeTemplateInterface.h; sourceTree = "<group>"; };
+		8C98FC5B162E36D2001B501E /* drag-dot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "drag-dot@2x.png"; path = "EGOTextView/EGOTextView/Resources/drag-dot@2x.png"; sourceTree = "<group>"; };
+		8C98FC5C162E36D2001B501E /* loupe-hi@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "loupe-hi@2x.png"; path = "EGOTextView/EGOTextView/Resources/loupe-hi@2x.png"; sourceTree = "<group>"; };
+		8C98FC5D162E36D3001B501E /* loupe-lo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "loupe-lo@2x.png"; path = "EGOTextView/EGOTextView/Resources/loupe-lo@2x.png"; sourceTree = "<group>"; };
+		8C98FC5E162E36D3001B501E /* loupe-mask@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "loupe-mask@2x.png"; path = "EGOTextView/EGOTextView/Resources/loupe-mask@2x.png"; sourceTree = "<group>"; };
+		8C98FC5F162E36D3001B501E /* magnifier-ranged-hi@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "magnifier-ranged-hi@2x.png"; path = "EGOTextView/EGOTextView/Resources/magnifier-ranged-hi@2x.png"; sourceTree = "<group>"; };
+		8C98FC60162E36D3001B501E /* magnifier-ranged-lo-stemless@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "magnifier-ranged-lo-stemless@2x.png"; path = "EGOTextView/EGOTextView/Resources/magnifier-ranged-lo-stemless@2x.png"; sourceTree = "<group>"; };
+		8C98FC61162E36D3001B501E /* magnifier-ranged-lo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "magnifier-ranged-lo@2x.png"; path = "EGOTextView/EGOTextView/Resources/magnifier-ranged-lo@2x.png"; sourceTree = "<group>"; };
+		8C98FC62162E36D3001B501E /* magnifier-ranged-mask@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "magnifier-ranged-mask@2x.png"; path = "EGOTextView/EGOTextView/Resources/magnifier-ranged-mask@2x.png"; sourceTree = "<group>"; };
+		8CFEE5511625132A0043E3A6 /* EGOTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EGOTextView.h; path = EGOTextView/EGOTextView/EGOTextView.h; sourceTree = "<group>"; };
+		8CFEE5521625132A0043E3A6 /* EGOTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EGOTextView.m; path = EGOTextView/EGOTextView/EGOTextView.m; sourceTree = "<group>"; };
+		8CFEE5541625137C0043E3A6 /* EGOTextView_Demo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = EGOTextView_Demo.xcodeproj; path = EGOTextView/EGOTextView_Demo.xcodeproj; sourceTree = "<group>"; };
+		8CFEE55E1625139C0043E3A6 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		8CFEE560162513A20043E3A6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -232,6 +265,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CFEE561162513A20043E3A6 /* QuartzCore.framework in Frameworks */,
+				8CFEE55F1625139C0043E3A6 /* CoreText.framework in Frameworks */,
 				8C82EFF0161F5C9800C08CAA /* CoreData.framework in Frameworks */,
 				8C7048B7161BC2C9006F19A8 /* UIKit.framework in Frameworks */,
 				8C7048B9161BC2C9006F19A8 /* Foundation.framework in Frameworks */,
@@ -255,6 +290,9 @@
 		8C7048A7161BC2C9006F19A8 = {
 			isa = PBXGroup;
 			children = (
+				8C749A14162CF93800CA4769 /* Resources */,
+				8CFEE5541625137C0043E3A6 /* EGOTextView_Demo.xcodeproj */,
+				8CFEE50616250CF00043E3A6 /* 3rdParty */,
 				8C82EFFA161F921900C08CAA /* Templates */,
 				8C7048BC161BC2C9006F19A8 /* MemeInventory */,
 				8C7048EE161BC2C9006F19A8 /* MemeInventoryTests */,
@@ -275,6 +313,8 @@
 		8C7048B5161BC2C9006F19A8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8CFEE560162513A20043E3A6 /* QuartzCore.framework */,
+				8CFEE55E1625139C0043E3A6 /* CoreText.framework */,
 				8C82EFEF161F5C9800C08CAA /* CoreData.framework */,
 				8C7048B6161BC2C9006F19A8 /* UIKit.framework */,
 				8C7048B8161BC2C9006F19A8 /* Foundation.framework */,
@@ -352,6 +392,22 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		8C749A14162CF93800CA4769 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8C98FC5B162E36D2001B501E /* drag-dot@2x.png */,
+				8C98FC5C162E36D2001B501E /* loupe-hi@2x.png */,
+				8C98FC5D162E36D3001B501E /* loupe-lo@2x.png */,
+				8C98FC5E162E36D3001B501E /* loupe-mask@2x.png */,
+				8C98FC5F162E36D3001B501E /* magnifier-ranged-hi@2x.png */,
+				8C98FC60162E36D3001B501E /* magnifier-ranged-lo-stemless@2x.png */,
+				8C98FC61162E36D3001B501E /* magnifier-ranged-lo@2x.png */,
+				8C98FC62162E36D3001B501E /* magnifier-ranged-mask@2x.png */,
+				8C749A12162CF92A00CA4769 /* Impact.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		8C82EFFA161F921900C08CAA /* Templates */ = {
 			isa = PBXGroup;
 			children = (
@@ -426,6 +482,31 @@
 			path = MemeInventory/Templates;
 			sourceTree = "<group>";
 		};
+		8CFEE50616250CF00043E3A6 /* 3rdParty */ = {
+			isa = PBXGroup;
+			children = (
+				8CFEE54A162511E40043E3A6 /* EGOTextView */,
+			);
+			name = 3rdParty;
+			sourceTree = "<group>";
+		};
+		8CFEE54A162511E40043E3A6 /* EGOTextView */ = {
+			isa = PBXGroup;
+			children = (
+				8CFEE5511625132A0043E3A6 /* EGOTextView.h */,
+				8CFEE5521625132A0043E3A6 /* EGOTextView.m */,
+			);
+			name = EGOTextView;
+			sourceTree = "<group>";
+		};
+		8CFEE5551625137C0043E3A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CFEE55D1625137C0043E3A6 /* EGOTextView_Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -485,6 +566,12 @@
 			mainGroup = 8C7048A7161BC2C9006F19A8;
 			productRefGroup = 8C7048B3161BC2C9006F19A8 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 8CFEE5551625137C0043E3A6 /* Products */;
+					ProjectRef = 8CFEE5541625137C0043E3A6 /* EGOTextView_Demo.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				8C7048B1161BC2C9006F19A8 /* MemeInventory */,
@@ -492,6 +579,16 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		8CFEE55D1625137C0043E3A6 /* EGOTextView_Demo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = EGOTextView_Demo.app;
+			remoteRef = 8CFEE55C1625137C0043E3A6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		8C7048B0161BC2C9006F19A8 /* Resources */ = {
@@ -570,6 +667,15 @@
 				8C251A48161FC54900423D68 /* thumb-upvoting-obama@2x.png in Resources */,
 				8C251A49161FC54900423D68 /* thumb-x-x-everywhere.jpeg in Resources */,
 				8C251A4A161FC54900423D68 /* thumb-x-x-everywhere@2x.jpeg in Resources */,
+				8C749A13162CF92A00CA4769 /* Impact.ttf in Resources */,
+				8C98FC63162E36D3001B501E /* drag-dot@2x.png in Resources */,
+				8C98FC64162E36D3001B501E /* loupe-hi@2x.png in Resources */,
+				8C98FC65162E36D3001B501E /* loupe-lo@2x.png in Resources */,
+				8C98FC66162E36D3001B501E /* loupe-mask@2x.png in Resources */,
+				8C98FC67162E36D3001B501E /* magnifier-ranged-hi@2x.png in Resources */,
+				8C98FC68162E36D3001B501E /* magnifier-ranged-lo-stemless@2x.png in Resources */,
+				8C98FC69162E36D3001B501E /* magnifier-ranged-lo@2x.png in Resources */,
+				8C98FC6A162E36D3001B501E /* magnifier-ranged-mask@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -615,6 +721,7 @@
 				8C251A4D16208D1F00423D68 /* MIMemesDelegate.m in Sources */,
 				8C251A50162090BE00423D68 /* MICreateMemeViewController.m in Sources */,
 				8C251A561620D50B00423D68 /* MIElasticImageView.m in Sources */,
+				8CFEE5531625132A0043E3A6 /* EGOTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -680,7 +787,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Amos Simeon Chan (N4MBENC9HE)";
@@ -711,7 +818,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -735,6 +842,7 @@
 				GCC_PREFIX_HEADER = "MemeInventory/MemeInventory-Prefix.pch";
 				INFOPLIST_FILE = "MemeInventory/MemeInventory-Info.plist";
 				PRODUCT_NAME = Memes;
+				USER_HEADER_SEARCH_PATHS = "./EGOTextView/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -746,6 +854,7 @@
 				GCC_PREFIX_HEADER = "MemeInventory/MemeInventory-Prefix.pch";
 				INFOPLIST_FILE = "MemeInventory/MemeInventory-Info.plist";
 				PRODUCT_NAME = Memes;
+				USER_HEADER_SEARCH_PATHS = "./EGOTextView/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
